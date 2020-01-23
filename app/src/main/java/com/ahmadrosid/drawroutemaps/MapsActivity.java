@@ -2,7 +2,8 @@ package com.ahmadrosid.drawroutemaps;
 
 import android.graphics.Point;
 import android.os.Bundle;
-import android.support.v4.app.FragmentActivity;
+
+import androidx.appcompat.app.AppCompatActivity;
 
 import com.ahmadrosid.lib.drawroutemap.DrawMarker;
 import com.ahmadrosid.lib.drawroutemap.DrawRouteMaps;
@@ -13,7 +14,7 @@ import com.google.android.gms.maps.SupportMapFragment;
 import com.google.android.gms.maps.model.LatLng;
 import com.google.android.gms.maps.model.LatLngBounds;
 
-public class MapsActivity extends FragmentActivity implements OnMapReadyCallback {
+public class MapsActivity extends AppCompatActivity implements OnMapReadyCallback {
 
     private GoogleMap mMap;
 
